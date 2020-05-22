@@ -11,9 +11,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("This is Edmund's and Richard's walkthrough of Hash Table - Chaining");
-            Console.Write();
+            Console.WriteLine("Please note, the variable 'size' is always 10 in our case");
+            Console.WriteLine();
             opentable op = new opentable();
             op.insert(40, "Nike, $40");
+            op.insert(40, "Nike, $41");
             op.insert(30, "Addidas, $30");
             op.insert(32, "Converse, $32");
             op.insert(49, "Vans, $49");
@@ -24,7 +26,6 @@ namespace ConsoleApp1
             op.insert(77, "Nike, $77");
             op.insert(55, "Vans, $55");
         }
-
 
 
         class opentable 
